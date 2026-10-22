@@ -1,0 +1,18 @@
+{
+    "module": "City",
+    "table": "cities",
+    "action": "delete",
+    "generated_at": "2026-04-06T12:24:50+05:30",
+    "fields": {
+        "id": {
+            "rules": [
+                "required",
+                "integer",
+                "exists:cities,id"
+            ],
+            "type": "bigint",
+            "nullable": false,
+            "html_type": "hidden"
+        }
+    }
+}

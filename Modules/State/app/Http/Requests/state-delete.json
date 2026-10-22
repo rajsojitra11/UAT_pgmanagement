@@ -1,0 +1,18 @@
+{
+    "module": "State",
+    "table": "states",
+    "action": "delete",
+    "generated_at": "2026-04-06T12:24:57+05:30",
+    "fields": {
+        "id": {
+            "rules": [
+                "required",
+                "integer",
+                "exists:states,id"
+            ],
+            "type": "bigint",
+            "nullable": false,
+            "html_type": "hidden"
+        }
+    }
+}

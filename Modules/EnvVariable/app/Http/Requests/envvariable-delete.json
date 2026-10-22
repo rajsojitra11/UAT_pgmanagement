@@ -1,0 +1,18 @@
+{
+    "module": "EnvVariable",
+    "table": "env_variables",
+    "action": "delete",
+    "generated_at": "2026-04-06T12:24:52+05:30",
+    "fields": {
+        "id": {
+            "rules": [
+                "required",
+                "integer",
+                "exists:env_variables,id"
+            ],
+            "type": "bigint",
+            "nullable": false,
+            "html_type": "hidden"
+        }
+    }
+}

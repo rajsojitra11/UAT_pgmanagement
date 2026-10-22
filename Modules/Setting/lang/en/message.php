@@ -1,0 +1,55 @@
+<?php
+
+return [
+    'setting' => 'Setting',
+    'company_name' => 'Company Name',
+    'tag_line' => 'Tag Line',
+    'gst_number' => 'GST Number',
+    'pancard_number' => 'Pancard Number',
+    'tan_number' => 'Tan Number',
+    'email' => 'Email',
+    'mobile' => 'Mobile',
+    'address' => 'Company Address',
+    'logo' => 'Logo',
+    'logo_dark' => 'Logo For Dark Mode',
+    'favicon' => 'Favicon',
+    'year_display_format' => 'Year Display Format',
+
+    // Logging messages
+    'accessed' => 'Settings accessed',
+    'created' => 'Settings created successfully',
+    'updated' => 'Settings updated successfully',
+    'deleted' => 'Settings deleted successfully',
+    'save_failed' => 'Failed to save settings',
+    'update_failed' => 'Failed to update settings',
+    'delete_failed' => 'Failed to delete settings',
+    'management' => 'Settings Management',
+    'list' => 'Settings List',
+    'edit' => 'Edit Settings',
+    'create' => 'Create Settings',
+    'restored' => 'Setting restored successfully',
+    'activated' => 'Setting activated successfully',
+    'deactivated' => 'Setting deactivated successfully',
+    'viewed' => 'Setting viewed',
+    'exported' => 'Setting data exported',
+    'imported' => 'Setting data imported',
+
+    // Validation messages (moved from global validation.php)
+    'company_name_required' => 'Company name is required',
+    'company_name_max' => 'Company name must not exceed :max characters',
+    'tag_line_max' => 'Tag line must not exceed :max characters',
+    'email_valid' => 'Please enter a valid email address',
+    'email_max' => 'Email must not exceed 255 characters',
+    'mobile_max' => 'Mobile number must not exceed 20 characters',
+    'address_string' => 'Address must be a valid text',
+    'country_id_required' => 'Country is required',
+    'country_id_exists' => 'Selected country is invalid',
+    'state_id_required' => 'State is required',
+    'state_id_exists' => 'Selected state is invalid',
+    'city_id_required' => 'City is required',
+    'city_id_exists' => 'Selected city is invalid',
+    'year_display_format_in' => 'Selected year display format is invalid',
+
+    'validation' => [
+    ],
+];

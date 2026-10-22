@@ -1,0 +1,18 @@
+{
+    "module": "MenuMaster",
+    "table": "menu_masters",
+    "action": "delete",
+    "generated_at": "2026-04-06T12:24:53+05:30",
+    "fields": {
+        "id": {
+            "rules": [
+                "required",
+                "integer",
+                "exists:menu_masters,id"
+            ],
+            "type": "bigint",
+            "nullable": false,
+            "html_type": "hidden"
+        }
+    }
+}
